@@ -1,0 +1,67 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}
+
+.title {
+    font-size: 2em;
+    text-align: center;
+}
+
+.button {
+    margin: 20px 0;
+    padding: 10px 20px;
+    font-size: 1.2em;
+    cursor: pointer;
+}
+
+.webcam {
+    width: 100%;
+    max-width: 600px;
+}
+
+.capturedImage {
+    width: 100%;
+    max-width: 600px;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+.results {
+    width: 100%;
+    max-width: 600px;
+    margin-top: 20px;
+}
+
+.subtitle {
+    font-size: 1.5em;
+    text-align: center;
+}
+
+.list {
+    list-style-type: none;
+    padding: 0;
+}
+
+.listItem {
+    background: #f0f0f0;
+    margin: 10px 0;
+    padding: 10px;
+    border-radius: 8px;
+}
+
+@media (max-width: 600px) {
+    .container {
+        padding: 10px;
+    }
+
+    .title {
+        font-size: 1.5em;
+    }
+
+    .subtitle {
+        font-size: 1.2em;
+    }
+}
